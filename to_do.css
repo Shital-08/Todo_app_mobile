@@ -1,0 +1,164 @@
+.todo{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    box-shadow: 10px 10px 20px black;
+}
+.h{
+    margin-left: 100px;
+} 
+.h1{
+    color: blue;
+    }
+.link{
+    position: absolute;
+    right: 50px;
+}
+.fa-solid{
+    color:blue;
+
+}
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.flex-item{
+    width: 352px;
+    height: 360px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+b{
+    margin-left: 20px;
+    color: blue;
+}
+.chbox{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.f1{
+    text-decoration: line-through;
+    color: gray;
+}
+iframe{
+    height: 100vh;
+    width: 100vw;
+    filter: blur(10px);
+}
+.page2{
+    color: black;
+position:absolute;
+top: 184px;
+left: 433px;
+width: 500px;
+height: 250px;
+background:white  0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px black;
+border: 1px solid white;
+border-radius: 10px;
+opacity: 1;
+
+}
+
+.page2L1{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin-left: 350px;
+}
+.text{
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(190, 181, 181);
+}
+.inline{
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 0;
+
+}
+
+
+@media (min-width:400px)and (max-width:500px) {
+    .page2{
+        color: black;
+    position:absolute;
+    top: 250px;
+    left: 100px;
+    width: 250px;
+    height: 350px;
+    background:white  0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid white;
+    border-radius: 10px;
+    opacity: 1;
+    
+    }
+    button{
+        background-color: blue;
+        color: white;
+        height: 50px;
+        width: 100px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .text{
+        width: 180px;
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 10px;
+        background-color: rgb(190, 181, 181);
+    }
+    
+}
+
+@media (min-width:500px)and (max-width:850px) {
+    .page2{
+        color: black;
+    position:absolute;
+    top: 200px;
+    left: 190px;
+    width: 400px;
+    height: 450px;
+    background:white  0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px black;
+    border: 1px solid white;
+    border-radius: 10px;
+    opacity: 1;
+    
+    }
+    button{
+        background-color: blue;
+        color: white;
+        height: 50px;
+        width: 150px;
+        margin-top: 150px;
+        margin-left: 220px;
+    }
+    .text{
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 10px;
+        background-color: rgb(190, 181, 181);
+    }
+    
+}
